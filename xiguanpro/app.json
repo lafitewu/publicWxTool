@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/details/index",
+    "pages/friend_page/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FE7A00",
+    "navigationBarTitleText": "习惯养成pro",
+    "navigationBarTextStyle":"black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx01551a6a16bee726",
+    "wx13dd723fb3aa9c5f",
+    "wx15fda271dcf29c01",
+    "wx4b2b92f19a82f9e6",
+    "wx3c224caf88e9581a",
+    "wxbdfee33ea394a980",
+    "wxa42959523195f527",
+    "wxd7c5b7d77ff1b238",
+    "wx61fc938ed72cf7d6",
+    "wx3abb0bdcd9d55ac8"
+  ]
+}

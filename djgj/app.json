@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/details/index",
+    "pages/friend_page/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FE7A00",
+    "navigationBarTitleText": "兑奖工具",
+    "navigationBarTextStyle":"black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx2e0d90b21ea06733",
+    "wx6946076bd7e8f63c",
+    "wxbab3adf5906c4729",
+    "wxc72e8569c6aac54f",
+    "wx0484476a98684f0c",
+    "wxb9fc17fe51eb5b14",
+    "wx62b71fe988427d60",
+    "wxc3c0152eca431de6",
+    "wxbf19d25813d0c61a",
+    "wx0a63e267bf4c79be"
+  ]
+}

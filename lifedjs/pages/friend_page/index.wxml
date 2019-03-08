@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class='top_pic'>
+  <image src='http://p5tezjdao.bkt.clouddn.com/wechat_task_default_bg.png'></image>
+  <view class='topText'>
+    <view class='toptext t_txt1'>TA</view>
+    <image class='topText_icon' src='{{user_icon}}'></image>
+    <view class='toptext t_txt2'>邀请你一起玩</view>
+  </view>
+</view>
+
+<view class='friend_infro'>
+  <image class='firend_pic' src='{{detail_icon}}'></image>
+  <view class='friend_text'>
+    <!-- {{detail_title}} -->
+    <view class='detail_title'>{{detail_title}}</view>
+    <!-- {{detail_desc}} -->
+    <view class='detail_step'>{{detail_desc}}</view>
+  </view>
+</view>
+
+<button class='detail_btn' open-type="getUserInfo" bindgetuserinfo="getUserInfo" disabled='{{btnStatus}}'>{{btn_name}}</button>
+<view class='ads'>
+  <ad unit-id="adunit-6c04dce718634e3c"></ad>
+</view>
+  
+  

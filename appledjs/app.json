@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/details/index",
+    "pages/friend_page/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FE7A00",
+    "navigationBarTitleText": "苹果倒计时",
+    "navigationBarTextStyle":"black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx43728d5e0bec2447",
+    "wxde95bd39002c809c",
+    "wxc19ad291fec131ac",
+    "wx4806f332084cae85",
+    "wx3c78da89feb706f2",
+    "wx411387cf980c03a4",
+    "wxb29884a8126c78ac",
+    "wxb09486b4d08778c7",
+    "wx069cc32e8d101c25",
+    "wx5f78f33bf42aedb0"
+  ]
+}

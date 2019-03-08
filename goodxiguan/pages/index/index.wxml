@@ -1,0 +1,23 @@
+<!--index.wxml-->  
+<!-- <button bindtap='urlFn'>跳转测试</button>       -->
+<view class='app' hidden='{{!shows}}'>
+  <view class='top_title'>{{title}}</view>
+  <view class='top_info'>{{info}}</view>
+
+  <view class='content'>
+      <swiper class="wx-swiper">
+        <swiper-item wx:for="{{bannerArr}}" wx:key="index">
+            <image class='banner_image' bindtap="tap_d5808da3" src="{{item.src}}"></image>
+        </swiper-item>
+      </swiper>
+  </view>
+
+  <view class='IndexBtn' bindtap='startFn'>开始计时</view>
+</view>
+<view class='app2' hidden='{{shows}}'>
+  <image class='app2Bg' src='../../images/time_down_default_bg.png' mode="widthFix"></image>
+  <view class='Minutes'>{{min}}</view>
+  <view class='fuhao'>:</view>
+  <view class='sencond'>{{senconds}}</view>
+  <view class='IndexBtn2' bindtap='endFn'>提前结束</view>
+</view>

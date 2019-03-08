@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/details/index",
+    "pages/friend_page/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FE7A00",
+    "navigationBarTitleText": "人生倒计时pro",
+    "navigationBarTextStyle":"black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx893260ea77b23e55",
+    "wxac063214558efa22",
+    "wx336dcaf6a1ecf632",
+    "wxff888972e97ff2ef",
+    "wx263ee0e5f196cb90",
+    "wx999a8e979ae3d48f",
+    "wxccd2b48ae7d4af41",
+    "wxe46bd15fcbb4f829",
+    "wxd16915542d3df546",
+    "wxe1ca087f2d5150cf"
+  ]
+}

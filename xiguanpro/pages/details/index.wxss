@@ -1,0 +1,193 @@
+/**index.wxss**/
+.top_title {
+  width: 100%;
+  height: 25vw;
+}
+  .icon_pic {
+    float: left;
+    width: 15vw;
+    height: 15vw;
+    margin: 5vw 0 0 8vw;
+  }
+    .detail_icon {
+      width: 100%;
+      height: 100%;
+      border-radius: 90px;
+    }
+  .detail_title {
+    float: left;
+    line-height: 25vw;
+    font-weight: bold;
+    width: 70%;
+    text-indent: 5vw;
+    letter-spacing: .2vw;
+    font-size: 5vw;
+  }
+.friend_help {
+  width: 100%;
+  height: 16vw;
+  background: white;
+  border-top: 2vw solid #F3F5FA;
+  border-bottom: 2vw solid #F3F5FA;
+}
+  .help_txt {
+    float: left;
+    color: #F53A3A;
+    font-size: 4vw;
+    line-height: 16vw;
+    text-align: right;
+    width: 80%;
+  }
+  .help_icon {
+    float: left;
+    width: 6vw;
+    height: 6vw;
+    margin: 5vw 0 5vw 4vw;
+  }
+    .help_icon image {
+      width: 100%;
+      height: 100%;
+    }
+.ExperienceReward,.shareReward {
+  height: auto;
+  width: 85%;
+  border-bottom: 1px solid #999;
+  margin: auto;
+}
+.shareReward {
+  border: none;
+}
+  .ExperienceReward_title {
+    width: 100%;
+    font-size: 5vw;
+    margin: 4vw 0 2vw 0;
+    font-weight: bold;
+  }
+  .detail_step {
+    width: 100%;
+    font-size: 4.3vw;
+    color: #636363;
+    line-height: 6.8vw;
+    margin-bottom: 6vw;
+  }
+  .detail_btn,.detail_btn2 {
+    width: 50%;
+    height: 12vw;
+    color: white;
+    line-height: 12vw;
+    background: #FF4B4B;
+    border-radius: 90px;
+    letter-spacing: .6vw;
+    font-size: 4.2vw;
+    margin-bottom: 6vw;
+    border: 1px solid #D6D6D6;
+  }
+  .detail_btn2 {
+    background: #2D7CF1;
+  }
+
+
+
+/* 公共遮罩层 */
+  .publicCover {
+    z-index: 90;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(16,16,16, .7);
+  }
+
+  .coverNotice1,.coverNotice2 {
+    z-index: 92;
+    position: fixed;
+    /* width: 80%; */
+    /* height: 40vw; */
+    top: 10%;
+    left: 10%;
+    /* background: white; */
+  }
+  .coverNotice1 {
+    top: 15%;
+    width: 65%;
+    height: 75vw;
+    left: 17.5%;
+    text-align: center;
+  }
+    .coverNotice1 image {
+      width: 100%;
+      height: 100%;
+    }
+    .coverMoney {
+      z-index: 105;
+      position: fixed;
+      top: 78vw;
+      left: 0;
+      right: 0;
+      margin: auto;
+      font-size: 50rpx;
+      color: red;
+      /* width: 100%; */
+    }
+  .coverNotice2 {
+    top: 18%;
+    width: 65%;
+    left: 17.5%;
+    height: 55vw;
+    border-radius: 5px;
+    background: white;
+  }
+    .coverNotice2 image {
+      width: 65%;
+      height: 40%;
+      margin-left: 17.5%;
+      margin-top: 20%;
+    }
+    .coverInfo {
+      z-index: 99;
+      position: inherit;
+      width: 60%;
+      left: 20%;
+      text-align: center;
+      font-size: 34rpx;
+      line-height: 55rpx;
+      margin-top: 10rpx;
+      color: #202020;
+    }
+  .coverBtn {
+    z-index: 98;
+    position: fixed;
+    top: 76.5%;
+    text-align: center;
+    font-size: 32rpx;
+    text-decoration: underline;
+    color: white;
+    width: 100%;
+  }
+
+  .coverAd {
+    z-index: 95;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+  }
+
+   .disblock {
+    width: 100%;
+    height: 260rpx;
+  }
+  .footerAds {
+    /* z-index: 99; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .footerClose {
+    z-index: 20;
+    position: inherit;
+    right: 0;
+    /* bottom: 155rpx; */
+    width: 40rpx;
+    height: 40rpx;
+  }

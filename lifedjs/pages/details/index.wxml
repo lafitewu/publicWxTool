@@ -1,0 +1,66 @@
+<!--index.wxml-->
+  <view class='top_title'>
+    <view class='icon_pic'>
+    <!-- {{detail_icon}} -->
+      <image class='detail_icon' src='{{detail_icon}}'></image>
+    </view>
+
+     <!-- {{detail_title}} -->
+    <view class='detail_title'>{{detail_title}}</view>
+  </view>
+
+  <!-- <view class='friend_help'>
+    <view class='help_txt' style='color:{{text_colors}}'>{{help_text}}</view>
+    <view class='help_icon' wx-if="{{!help_icon_turn}}">
+      <image src='http://p5tezjdao.bkt.clouddn.com/wechat_task_default_user_icon.png'></image>
+    </view>
+  </view> -->
+  
+  <view class='ExperienceReward' hidden='{{ExperShow}}'>
+    <view class='ExperienceReward_title'>体验指南</view>
+    <!-- {{detail_guide}} 任务步骤：-->
+    <view class='detail_step'>{{detail_guide}}</view>
+
+    <button class='detail_btn' bindtap='gameStartFn' open-type="getUserInfo" bindgetuserinfo="getUserInfo" disabled='{{btnStatus}}'>{{btn_name}}</button>
+  </view> 
+  
+  <!-- <view class='shareReward'>
+    <view class='ExperienceReward_title'>分享奖励</view>
+    <view class='detail_step'>奖励说明：{{detail_share}}</view>
+
+    <button class='detail_btn2' open-type="share" bindtap='shareDdFn' disabled='{{isShare}}'>{{btn_name2}}</button>
+  </view>  -->
+
+
+  <view class='disblock'></view>
+<!-- 新增广告 -->
+<!--  wx:if="{{!newAdTurn}}" -->
+  <view class='footerAds' bindtap='testFn'>
+    <image class='footerClose' hidden='{{adHide}}' bindtap='adCloseFn' src='http://sidenewsstatic.ytoutiao.net/ad_quit_icon.png'></image>
+    <ad unit-id="adunit-19a80cab809930bf"></ad>
+  </view>
+  
+
+
+  <!-- 公共遮罩层 -->
+  <view class='publicCover' wx:if="{{adCoverTurn}}"></view>
+
+  <view class='coverNotice1' wx:if="{{adCoverFontTurn1}}">
+    <image src='http://sidenewsstatic.ytoutiao.net/popup_img_get_reward.png'></image>
+    <view class='coverMoney'>{{coverNoticeFont}}</view>
+  </view>
+  
+  <view class='coverNotice2' wx:if="{{adCoverFontTurn2}}">
+    <image src='http://sidenewsstatic.ytoutiao.net/popup_img_continue_reward.png'></image>
+    <view class='coverInfo'>试玩失败，体验时长不够！</view>
+  </view>
+
+  <view class='coverBtn' bindtap='closeCover' wx:if="{{adCoverTurn}}">好的，知道了</view>
+  <view class='coverAd' wx:if="{{adCoverTurn}}">
+    <ad unit-id="adunit-3ff3f8bd2c81ca1c"></ad>
+  </view>
+  <!-- <view class='detail_desc'>
+    <view class='detail_d_font'>{{detail_desc}}</view>
+  </view> -->
+  
+  

@@ -1,0 +1,85 @@
+.top_pic {
+  position: relative;
+  width: 100%;
+}
+  .top_pic image {
+    width: 100%;
+  }
+  .topText {
+    position: absolute;
+    width: 70%;
+    height: 12vw;
+    bottom: 17vw;
+    left: 15%;
+    border-radius: 45px;
+    color: white;
+    line-height: 12vw;
+    text-align: center;
+    font-size: 4.3vw;
+    background: #DB2828;
+  }
+    .toptext {
+      float: left;
+      letter-spacing: .3vw;
+    }
+    .t_txt1 {
+      margin-left: 4.5vw;
+    }
+    .topText .topText_icon {
+      float: left;
+      width: 10vw;
+      height: 10vw;
+      margin: 1vw 2vw;
+      border-radius: 90px;
+    }
+.friend_infro {
+  display: inline-block;
+  width: 90%;
+  /* height: 34vw; */
+  background: #F3F5FA;
+  margin: 8vw 5% 4vw 5%;
+  border-radius: 15px;
+}
+  .friend_infro .firend_pic {
+    float: left;
+    width: 16vw;
+    height: 16vw;
+    margin: 8vw 3vw;
+    border-radius: 90px;
+  }
+  .friend_text {
+    float: left;
+    width: 75%;
+    line-height: 7vw;
+    margin: 5vw 0;
+  }
+    .detail_title {
+        color: #2F2F2F;
+        font-size: 4.8vw;
+        font-weight: bold;
+    }
+    .detail_step {
+      margin-top: 5vw;
+      margin-bottom: 2vw;
+      font-size: 4.8vw;
+      color: #666666;
+    }
+.detail_btn {
+  width: 45%;
+  height: 12vw;
+  color: white;
+  line-height: 12vw;
+  background: #FF4B4B;
+  border-radius: 90px;
+  letter-spacing: .6vw;
+  font-size: 4.2vw;
+  margin-top: 6vw;
+  border: 1px solid #D6D6D6;
+}
+
+.ads {
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    left: 10%;
+  }

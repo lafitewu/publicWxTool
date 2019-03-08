@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/details/index",
+    "pages/friend_page/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FE7A00",
+    "navigationBarTitleText": "好习惯pro",
+    "navigationBarTextStyle":"black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxf480aafb1e0efd5e",
+    "wx3f6b6dfe1ffc095f",
+    "wxccd2b48ae7d4af41",
+    "wxfe8c23f10384aed8",
+    "wx3490aef65724e32d",
+    "wx263ee0e5f196cb90",
+    "wxd8de2f6276406b2a",
+    "wx91c4bbe26f977343",
+    "wx34b348b28b933474",
+    "wx5971eddcb9b377eb"
+  ]
+}

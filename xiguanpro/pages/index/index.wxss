@@ -1,0 +1,101 @@
+.top_title {
+  width: 100%;
+  text-align: center;
+  color: #193C43;
+  font-size: 4.8vw;
+  margin-top: 10vw;
+}
+  .top_info {
+    width: 100%;
+    text-align: center;
+    color: #707F83;
+    font-size: 4.2vw;
+    margin-top: 3vw;
+  }
+
+.content {
+  width: 68%;
+  height: 88vw;
+  margin-left: 16%;
+  margin-top: 10vw;
+}
+  .wx-swiper {
+    width: 100%;
+    height: 100%;
+  }
+    .banner_image {
+      width: 100%;
+      height: 100%;
+    }
+.IndexBtn {
+  width: 86%;
+  height: 16vw;
+  background: #0F8DA6;
+  text-align: center;
+  line-height: 16vw;
+  border-radius: 10rpx;
+  margin-left: 7%;
+  margin-top: 14vw;
+  color: white;
+  letter-spacing: .5vw;
+  font-size: 4.5vw;
+}
+
+
+
+
+.app2 {
+  position: relative;
+  width: 100%;
+}
+  .app2Bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* height: 100%; */
+  }
+  .IndexBtn2 {
+    position: absolute;
+    top: 120vw;
+    width: 86%;
+    height: 16vw;
+    background: white;
+    text-align: center;
+    line-height: 16vw;
+    border-radius: 10rpx;
+    margin-left: 7%;
+    margin-top: 14vw;
+    color: #173A41;
+    letter-spacing: .5vw;
+    font-size: 4.5vw;
+  }
+
+  .Minutes {
+    position: absolute;
+    top: 40vw;
+    left: 1%;
+    font-size: 8vw;
+    color: white;
+    width: 45%;
+    text-align: right;
+    text-indent: -10vw;
+  }
+  .fuhao {
+    position: absolute;
+    top: 40vw;
+    font-size: 8vw;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  .sencond {
+    float: left;
+    position: absolute;
+    right: 1%;
+    top: 40vw;
+    font-size: 8vw;
+    color: white;
+    width: 45%;
+    text-align: left;
+  }
