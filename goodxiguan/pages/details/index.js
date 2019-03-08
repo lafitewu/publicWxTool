@@ -7,7 +7,7 @@ var CusBase64 = require('../../utils/base64.js')
 
 Page({
   data: {
-    version: '好习惯pro1.2（新增banner广告）',
+    version: '好习惯pro1.3（新增4ads）19.3.8',
     ExperShow: false,
     goBack: '',
     isShare: '',
